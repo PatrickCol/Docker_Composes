@@ -1,0 +1,22 @@
+version: '3'
+services:
+  api-clientes:
+    image: patrickcolque/api-clientes  
+    container_name: api-clientes_c    
+    ports:
+      - "8010:8010" 
+  api-negocio:
+    image: yoyoyopi/api-mysql-cc
+    container_name: api-negocio_c
+    ports:
+      - "8020:8020" 
+  api-ventas:
+    image: 
+    container_name: api-negocio_c
+    ports:
+      - "8030:8030" 
+  api-consultor:
+    image: patrickcolque/api-consultor
+    container_name: api-negocio_c
+    ports:
+      - "8040:8040" 
