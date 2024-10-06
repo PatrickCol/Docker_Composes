@@ -12,11 +12,11 @@ services:
       - "8020:8020" 
   api-ventas:
     image: 
-    container_name: api-negocio_c
+    container_name: 
     ports:
       - "8030:8030" 
   api-consultor:
     image: patrickcolque/api-consultor
-    container_name: api-negocio_c
+    container_name: api-consultor_c
     ports:
       - "8040:8040" 
