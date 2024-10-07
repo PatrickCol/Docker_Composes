@@ -16,7 +16,7 @@ services:
     ports:
       - "8030:8030" 
   api-consultor:
-    image: patrickcolque/api-consultor
-    container_name: api-consultor_c
+    image: 
+    container_name: 
     ports:
       - "8040:8040" 
