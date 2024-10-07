@@ -30,6 +30,6 @@ services:
       - mongo_data:/data/db
 
 volumes:
-  mysql_data:
-  postgres_data:
-  mongo_data:
+  mysql_data
+  postgres_data
+  mongo_data
